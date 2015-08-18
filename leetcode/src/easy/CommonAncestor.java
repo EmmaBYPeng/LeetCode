@@ -1,5 +1,7 @@
 package easy;
 
+import util.TreeNode;
+
 public class CommonAncestor {
 
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

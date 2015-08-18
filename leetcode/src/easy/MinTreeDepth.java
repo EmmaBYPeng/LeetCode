@@ -1,5 +1,7 @@
 package easy;
 
+import util.TreeNode;
+
 public class MinTreeDepth {
 
 	public int minDepth(TreeNode root) {

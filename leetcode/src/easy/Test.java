@@ -3,8 +3,8 @@ package easy;
 public class Test {
 
 	public static void main(String[] args) {
-		BinaryAdd test = new BinaryAdd();
+		ValidParentheses test = new ValidParentheses();
 		
-		System.out.println(test.toDecimal("0".toCharArray()));
+		System.out.println(test.isValid("()"));
 	}
 }

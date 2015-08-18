@@ -1,5 +1,7 @@
 package easy;
 
+import util.ListNode;
+
 public class RemoveNode {
 
 	public ListNode removeElements(ListNode head, int val) {

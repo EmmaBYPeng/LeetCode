@@ -1,5 +1,7 @@
 package easy;
 
+import util.ListNode;
+
 public class Intersection {
 	
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

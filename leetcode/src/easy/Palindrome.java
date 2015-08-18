@@ -3,6 +3,8 @@ package easy;
 import java.util.ArrayList;
 import java.util.List;
 
+import util.ListNode;
+
 public class Palindrome {
 	/**
 	 * Definition for singly-linked list.

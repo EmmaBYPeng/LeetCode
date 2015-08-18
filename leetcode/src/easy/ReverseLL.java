@@ -1,5 +1,7 @@
 package easy;
 
+import util.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
