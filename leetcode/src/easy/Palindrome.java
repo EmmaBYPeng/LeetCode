@@ -16,7 +16,6 @@ public class Palindrome {
 	 */
 	public boolean isPalindrome(ListNode head) {
         ArrayList<Integer> list = toArrayList(head);
-        
         return palindrome(list);
     }
 	

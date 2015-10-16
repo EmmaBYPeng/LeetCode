@@ -6,7 +6,7 @@ public class RemoveElem {
 
 		 int k = 0;
 		 for (int i = 0; i < nums.length; i++) {
-			 if (nums[i] == val) {
+			 if (nums[i] != val) {
 				 nums[k] = nums[i];
 				 k++;
 			 }
@@ -31,5 +31,17 @@ public class RemoveElem {
 		 }
 		 
 		 return k+1;
+	 }
+	 
+	 public int removeDuplicates2(int[] nums) {
+	        if (nums.length <= 1) return nums.length;
+	        int k = 1;
+	        for (int i = 0; i < nums.length-1; i++) {
+	            if (nums[i+1] != nums[i]) {
+	                nums[k] = nums[i+1];
+	                k++;
+	            }
+	        }
+	        return k;
 	 }
 }

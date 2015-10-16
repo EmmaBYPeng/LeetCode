@@ -17,6 +17,7 @@ public class BalancedBTree {
 		return (dfsDepth(root) != -1);
 	}
 	
+	// Will cause stack overflow
 	public boolean isBalanced(TreeNode root) {
         if (root == null) return true;
         

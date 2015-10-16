@@ -3,8 +3,11 @@ package easy;
 public class Test {
 
 	public static void main(String[] args) {
-		ValidParentheses test = new ValidParentheses();
+		StringVersion test = new StringVersion();
 		
-		System.out.println(test.isValid("()"));
+		String v1 = "1";
+		String v2 = "1.01";
+		System.out.println(test.compareVersion(v1, v2));
+		
 	}
 }
